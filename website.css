@@ -13,7 +13,7 @@
     margin: 0px;
     font-family: invisible;
     color: rgb(255, 255, 255);
-    background-color: #1f1f1f;
+    background-color: black;
     text-transform: capitalize;
 
 }
@@ -66,11 +66,13 @@ nav {
 .gallery {
     width: 90%;
     margin: 10px auto;
-    display: row;
+    /* display: row;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
-    
+    padding-left: 400px; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .bigBoy {
@@ -105,4 +107,25 @@ a {
 }
 h3{
     font-family: normal;
+}
+
+.inspo{
+    width: 100%;
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10em;
+    height: 500px;
+}
+
+.title{
+    background-color: rgb(54, 53, 53);
+    font-family: normal;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
