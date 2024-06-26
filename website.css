@@ -81,7 +81,7 @@ nav {
     margin-left: 700px;
     font-size: 100%;
     margin-top: 50px;
-
+    font-family: normal;
 }
 .moosic {
     margin-left: 50px;
@@ -92,5 +92,11 @@ nav {
   
 }
 p{
+    font-family: normal;
+}
+.txt-box-2 {
+    margin-left: 600px;
+    font-size: 100%;
+    margin-top: 50px;
     font-family: normal;
 }
