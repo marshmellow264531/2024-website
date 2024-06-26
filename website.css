@@ -95,8 +95,14 @@ p{
     font-family: normal;
 }
 .txt-box-2 {
-    margin-left: 600px;
+    margin-left: 650px;
     font-size: 100%;
     margin-top: 50px;
+    font-family: normal;
+}
+a {
+    font-family: normal;
+}
+h3{
     font-family: normal;
 }
